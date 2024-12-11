@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.text-section {
+  background-color: burlywood;
+}
+
+#main-title {
+  color: chocolate;
+}
+
+#title-activity {
+  margin-top: 50px;
+  color: brown;
+}
+
+.imp-text {
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+.position-class {
+  position: absolute;
+  background-color: darkorange;
+  top: 40px;
+  width: 200px;
+  left: 350px;
+  padding: 20px;
+}
+
+img {
+  float: right;
+  margin: 0 20px 20px 0;
+  width: 200px;
+}
+
+.item:nth-child(2) {
+  height: 160px;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px rgb(192, 111, 6);
+}
+
+.registration-form {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 1050px;
+  z-index: 1000;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.registration-form h2 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  flex-shrink: 0; /* Фиксируем размер заголовка */
+}
+
+.registration-form input {
+  flex: 1; /* Поля растягиваются по ширине */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  min-width: 150px;
+}
+
+.registration-form input:valid {
+  border-color: green;
+}
+
+.registration-form input:invalid {
+  border-color: red;
+}
+
+.registration-form button {
+  padding: 10px 20px;
+  background-color: green; 
+  color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.registration-form button:hover {
+  background-color: darkgreen; 
+}
