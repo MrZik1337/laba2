@@ -4,6 +4,11 @@
   background-color: burlywood;
 }
 
+body {
+  background-color: linen;
+  font-family: "Roboto", sans-serif;
+}
+
 #main-title {
   color: chocolate;
 }
@@ -13,6 +18,15 @@
   color: brown;
 }
 
+.list {
+        background-color: rgb(143, 218, 143);
+        list-style-type: square;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(94, 32, 32);
+        width: 800px;
+      }
+	  
 .imp-text {
   border: 3px solid green;
   padding: 10px;
